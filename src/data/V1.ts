@@ -11,7 +11,7 @@ import {
   TokenAmount,
   Trade,
   TradeType,
-  WETH
+  WETH9 as WETH
 } from 'kuswap-v2-sdk'
 import { useMemo } from 'react'
 import { useActiveWeb3React } from '../hooks'

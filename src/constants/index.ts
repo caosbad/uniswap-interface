@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token, WETH } from 'kuswap-v2-sdk'
+import { ChainId, JSBI, Percent, Token, WETH9 as WETH } from 'kuswap-v2-sdk'
 import { AbstractConnector } from '@web3-react/abstract-connector'
 
 import { fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'

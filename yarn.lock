@@ -10106,10 +10106,10 @@ kuswap-sdk-core@^1.0.0:
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
 
-kuswap-v2-sdk@1.0.10:
-  version "1.0.10"
-  resolved "https://registry.npmjs.org/kuswap-v2-sdk/-/kuswap-v2-sdk-1.0.10.tgz#8d8b02d5b65975658d072ae61c6621e282154e3e"
-  integrity sha512-Q0DDSd887wyNaBNb4QpX9IQCcDXD37a3LG2lkh/k3/o2XOrlPtXsIi4EBnrNJt0EhtEh8RXwIjphP8uDXKjYZA==
+kuswap-v2-sdk@1.0.11:
+  version "1.0.11"
+  resolved "https://registry.npmjs.org/kuswap-v2-sdk/-/kuswap-v2-sdk-1.0.11.tgz#ce19c8134f5e44450ad3da37fe3a35171fb66702"
+  integrity sha512-pxDOrFgXZMs8Go8hcA7GdMahJAsSTD3BHfOuRKTBDFkD7wrL2/q4l164dGMwR2IQvqYlFbP/Fwdqn8hIKkNeIw==
   dependencies:
     "@ethersproject/address" "^5.0.0"
     "@ethersproject/solidity" "^5.0.0"

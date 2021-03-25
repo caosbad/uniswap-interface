@@ -1,4 +1,4 @@
-import { ChainId, Currency, CurrencyAmount, ETHER, Token, TokenAmount, WETH } from 'kuswap-v2-sdk'
+import { ChainId, Currency, CurrencyAmount, ETHER, Token, TokenAmount, WETH9 as WETH } from 'kuswap-v2-sdk'
 
 export function wrappedCurrency(currency: Currency | undefined, chainId: ChainId | undefined): Token | undefined {
   // console.log(
