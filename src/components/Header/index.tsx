@@ -359,6 +359,7 @@ export default function Header() {
       <HeaderControls>
         <HeaderElement>
           <HideSmall>
+            // @ts-ignore
             {chainId && NETWORK_LABELS[chainId] && (
               <NetworkCard title={NETWORK_LABELS[chainId]}>{NETWORK_LABELS[chainId]}</NetworkCard>
             )}
