@@ -1,5 +1,6 @@
 import React from 'react'
-import { CurrencyAmount, Fraction, JSBI } from 'kuswap-v2-sdk'
+import {  JSBI } from 'kuswap-v2-sdk'
+import {  CurrencyAmount, Fraction, } from 'kuswap-sdk-core'
 
 const CURRENCY_AMOUNT_MIN = new Fraction(JSBI.BigInt(1), JSBI.BigInt(1000000))
 

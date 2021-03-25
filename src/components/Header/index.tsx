@@ -1,4 +1,4 @@
-import { ChainId, TokenAmount } from 'kuswap-v2-sdk'
+import { ChainId, TokenAmount } from 'kuswap-sdk-core'
 import React, { useState } from 'react'
 import { Text } from 'rebass'
 import { NavLink } from 'react-router-dom'

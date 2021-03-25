@@ -1,5 +1,6 @@
 import { isTradeBetter } from 'utils/trades'
-import { Currency, CurrencyAmount, Pair, Token, Trade } from 'kuswap-v2-sdk'
+import {  Pair,  Trade } from 'kuswap-v2-sdk'
+import { Currency, CurrencyAmount, Token} from 'kuswap-sdk-core'
 import flatMap from 'lodash.flatmap'
 import { useMemo } from 'react'
 

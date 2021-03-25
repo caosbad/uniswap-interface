@@ -1,4 +1,6 @@
-import { Currency, ETHER, Token } from 'kuswap-v2-sdk'
+
+import { Currency, Token, ETHER } from 'kuswap-sdk-core'
+
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
 

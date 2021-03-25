@@ -1,4 +1,5 @@
-import { Currency, Pair } from 'kuswap-v2-sdk'
+import { Pair } from 'kuswap-v2-sdk'
+import { Currency } from 'kuswap-sdk-core'
 import React, { useState, useCallback } from 'react'
 import styled from 'styled-components'
 import { darken } from 'polished'

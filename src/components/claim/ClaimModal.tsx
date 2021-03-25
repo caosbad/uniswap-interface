@@ -1,4 +1,5 @@
-import { JSBI, TokenAmount } from 'kuswap-v2-sdk'
+import { JSBI } from 'kuswap-v2-sdk'
+import { TokenAmount } from 'kuswap-sdk-core'
 import { isAddress } from 'ethers/lib/utils'
 import React, { useEffect, useState } from 'react'
 import { Text } from 'rebass'
