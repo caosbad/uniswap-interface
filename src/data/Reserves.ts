@@ -27,20 +27,23 @@ export function usePairs(currencies: [Currency | undefined, Currency | undefined
       ]),
     [chainId, currencies]
   )
-
+  console.log(tokens, currencies, '~~~~~~~~~~~~~~~~~~~~~~~')
   const pairAddresses = useMemo(
     () =>
       tokens.map(([tokenA, tokenB]) => {
-        console.log(
-          tokenA && tokenB && !tokenA.equals(tokenB) ? Pair.getAddress(tokenA, tokenB) : undefined,
-          '========='
-        )
+        // console.log(tokenA, 'AAA -----------------------------------')
+        // console.log(tokenA, 'BBB -----------------------------------')
+        // console.log(
+        //   tokenA && tokenB && !tokenA.equals(tokenB) ? Pair.getAddress(tokenA, tokenB) : undefined,
+        //   '++++++++++'
+        // )
         return tokenA && tokenB && !tokenA.equals(tokenB) ? Pair.getAddress(tokenA, tokenB) : undefined
       }),
     [tokens]
   )
 
   const results = useMultipleContractSingleData(pairAddresses, PAIR_INTERFACE, 'getReserves')
+  // console.log('currencies:' , currencies, 'pair:' , pairAddresses, 'tokens:' , tokens , '============!!!!==============')
 
   return useMemo(() => {
     return results.map((result, i) => {
