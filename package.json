@@ -119,6 +119,6 @@
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "@uniswap/default-token-list": "^2.0.0",
-    "kuswap-v2-sdk": "1.0.9"
+    "kuswap-v2-sdk": "1.0.12"
   }
 }

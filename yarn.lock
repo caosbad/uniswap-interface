@@ -10106,10 +10106,10 @@ kleur@^3.0.3:
   resolved "https://registry.npm.taobao.org/kleur/download/kleur-3.0.3.tgz?cache=0&sync_timestamp=1611347662017&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fkleur%2Fdownload%2Fkleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
   integrity sha1-p5yezIbuHOP6YgbRIWxQHxR/wH4=
 
-kuswap-v2-sdk@1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/kuswap-v2-sdk/-/kuswap-v2-sdk-1.0.9.tgz#5e20bfe7d124c35ce54c637486de561b7901a3b4"
-  integrity sha512-WvlUlo34PNIm2VshMsMetbxlv13/DNHxieO4KZgumZwSw990PAN36AUSfYVG9I5hO+HegDASQ/KR08qgRJa0qA==
+kuswap-v2-sdk@1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/kuswap-v2-sdk/-/kuswap-v2-sdk-1.0.12.tgz#c78c8bea5759d817086c6249eb546c90bc4c65eb"
+  integrity sha512-WGOlramw/Ez5Z/1+nimI4u9+x26NlceAbkx4uTjke1v2B6ru8nv0QNAH5noYZuJQ4EJk6t+fttYsJw1hmAzN4A==
   dependencies:
     "@ethersproject/address" "^5.0.0"
     "@ethersproject/solidity" "^5.0.0"
